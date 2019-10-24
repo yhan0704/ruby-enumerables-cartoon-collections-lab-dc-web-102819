@@ -1,4 +1,4 @@
-%w[
+dwar%w[
   Doc 
   Dopey 
   Bashful 
