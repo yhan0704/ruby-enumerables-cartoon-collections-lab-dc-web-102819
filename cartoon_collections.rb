@@ -7,7 +7,7 @@
 def roll_call_dwarves(name)# code an argument here
   array = []
   name.each_with_index{|item, index| 
-  array << "#{index+1}.*#{item}"}
+  array << "#{index+1}.*#{item}\n"}
   array.join(" ")
   array
 end
