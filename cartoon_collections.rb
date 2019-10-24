@@ -4,8 +4,7 @@ def roll_call_dwarves(dwarves)# code an argument here
  puts "#{index+1}.*#{item}\n"}
 end
 
-
-planeteer = ["earth", "wind", "fire", "water", "heart"]
+=
 def summon_captain_planet(planeteer)# code an argument here
   # Your code here
   planeteer.collect{|x| "#{x.capitalize}!"}
