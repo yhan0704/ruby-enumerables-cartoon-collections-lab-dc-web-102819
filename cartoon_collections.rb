@@ -3,8 +3,10 @@
 #   hash[item] = index
 # }
 # hash   #=> {"cat"=>0, "dog"=>1, "wombat"=>2}
+
 def roll_call_dwarves(name)# code an argument here
-  name.map{|x| "1.#{x}"}
+  name.each_with_index{|item, index| 
+  index. item}
 end
 
 def summon_captain_planet# code an argument here
