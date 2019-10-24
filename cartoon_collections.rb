@@ -13,7 +13,7 @@ def roll_call_dwarves(dwarves)# code an argument here
   # array << "#{index+1}.*#{item}\n"}
   # array.join(" ")
   # array
-  p dwarves
+  pp dwarves
 end
 
 def summon_captain_planet# code an argument here
