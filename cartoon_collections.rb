@@ -1,7 +1,7 @@
 def roll_call_dwarves(name)# code an argument here
   index = 0
   while index < name do
-    name[index]
+    puts name[index]
     index+=1
   end
 end
