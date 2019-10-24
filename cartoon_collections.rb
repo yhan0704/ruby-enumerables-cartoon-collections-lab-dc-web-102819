@@ -9,11 +9,11 @@ dwarves= %w[
             ] 
             
 def roll_call_dwarves(dwarves)# code an argument here
-  array = []
-  dwarves.each_with_index{|item, index| 
-  array << "#{index+1}.*#{item}\n"}
-  array.join(" ")
-  array
+  # dwarves.each_with_index{|item, index| 
+  # array << "#{index+1}.*#{item}\n"}
+  # array.join(" ")
+  # array
+  p dwarves
 end
 
 def summon_captain_planet# code an argument here
