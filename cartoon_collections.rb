@@ -8,7 +8,7 @@ end
 planeteer = ["earth", "wind", "fire", "water", "heart"]
 def summon_captain_planet(planeteer)# code an argument here
   # Your code here
-  planeteer.collect{|x| "#{x.capital}!"}
+  planeteer.collect{|x| "#{x.capitalize}!"}
 end
 
 def long_planeteer_calls# code an argument here
