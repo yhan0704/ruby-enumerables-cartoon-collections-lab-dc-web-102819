@@ -1,11 +1,11 @@
 %w[
   Doc 
-Dopey 
-Bashful 
-Grumpy 
-Sleepy 
-Happy 
-Sneezy
+  Dopey 
+  Bashful 
+  Grumpy 
+  Sleepy 
+  Happy 
+  Sneezy
 ]
 def roll_call_dwarves(name)# code an argument here
   array = []
