@@ -23,5 +23,5 @@ end
 
 def find_the_cheese(fruit)# code an argument here
  cheese_types = ["cheddar", "gouda", "camembert"]
-  fruit
+  fruit.find
 end
