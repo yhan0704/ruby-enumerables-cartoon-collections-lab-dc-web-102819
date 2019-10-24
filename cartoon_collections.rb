@@ -1,13 +1,4 @@
-dwarves= %w[
-            Doc 
-            Dopey 
-            Bashful 
-            Grumpy 
-            Sleepy 
-            Happy 
-            Sneezy
-            ] 
-            
+dwarves= ["Doc", "Dopey", "Bashful", "Grumpy"]
 def roll_call_dwarves(dwarves)# code an argument here
  dwarves.each_with_index{|item, index| 
  puts "#{index+1}.*#{item}\n"}
