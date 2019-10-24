@@ -1,8 +1,3 @@
-# hash = Hash.new
-# %w(cat dog wombat).each_with_index { |item, index|
-#   hash[item] = index
-# }
-# hash   #=> {"cat"=>0, "dog"=>1, "wombat"=>2}
 
 def roll_call_dwarves(name)# code an argument here
   array = []
